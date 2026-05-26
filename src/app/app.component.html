@@ -8,5 +8,6 @@
   <!-- @if (isAdmin()) {
     <p>Only admin can see this!</p>
   } -->
-  <p *ngIf="isAdmin()">Only admin can see this!</p>
+  <!-- <p *ngIf="isAdmin()">Only admin can see this!</p> -->
+  <p appAuth="admin">Only admin can see this!</p>
 </main>
